@@ -12,7 +12,7 @@ class SingleBook extends Component {
   render() {
     let cardStyle;
     if (this.state.selected === true) {
-      cardStyle = { borderColor: "#198754", backgroundColor: "#eee6e3" };
+      cardStyle = { borderColor: "#198754", backgroundColor: "lightgreen" };
     } else {
       cardStyle = { borderColor: "transparent", backgroundColor: "initial" };
     }
